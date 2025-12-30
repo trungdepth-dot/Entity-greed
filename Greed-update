@@ -16,7 +16,7 @@ local entity = spawner.Create({
 	Entity = {
 		Name = "Greed",
 		Asset = "https://github.com/plamen6789/CustomDoorsMonsters/blob/main/Greed.rbxm?raw=true",
-		HeightOffset = 0
+		HeightOffset = 1
 	},
 	Lights = {
 		Flicker = {
