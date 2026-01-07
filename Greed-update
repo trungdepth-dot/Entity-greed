@@ -59,7 +59,7 @@ local entity = spawner.Create({
 	},
 	Death = {
 		Type = "Guiding", -- "Curious"
-		Hints = {"You died to greed...", "To survive him, hide and wait for him to despawn.", "He can rebound up to 2 or 3 times.", "Goodluck next time."},
+		Hints = {"You died to greed...", "To survive him, hide and wait for him to despawn.", "He can rebound up to many times.", "Goodluck next time."},
 		Cause = "Greed"
 	}
 })
