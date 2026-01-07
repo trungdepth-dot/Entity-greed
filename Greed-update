@@ -31,7 +31,7 @@ local entity = spawner.Create({
 	},
 	CameraShake = {
 		Enabled = true,
-		Range = 50,
+		Range = 125,
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
@@ -60,7 +60,7 @@ local entity = spawner.Create({
 	Death = {
 		Type = "Guiding", -- "Curious"
 		Hints = {"You died to greed...", "To survive him, hide and wait for him to despawn.", "He can rebound up to 2 or 3 times.", "Goodluck next time."},
-		Cause = ""
+		Cause = "Greed"
 	}
 })
 
